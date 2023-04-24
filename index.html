@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pagina diseñada con Bootstrap</title>
+</head>
+<body>
+
+
+    <!-- MENU -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="https://www.kindpng.com/picc/m/1-11743_filmklappe-film-cinema-hatch-synchronously-icon-film-icon.png" alt="Icon" width="30" height="24">
+                    PelisPedia
+                  </a>
+                </div>
+              </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Actores</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Accion</a></li>
+                  <li><a class="dropdown-item" href="#">Aventura</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="#">Suspenso</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Todos</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CARUSEL -->
+      <div class="borde-l"></div>
+      <h2 class="titulos">Peliculas Estreno:</h2>
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://fotografias.antena3.com/clipping/cmsimages01/2023/03/23/43D8CE62-A61C-4E5F-805A-3B24BAE3F04C/concurso-consigue-pack-merchandising-super-mario-bros-pelicula_98.jpg?crop=1120,630,x0,y0&width=1900&height=1069&optimize=high&format=webply" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://malditosnerds.com/wp-content/uploads/2023/04/Evil-Dead-Rise-malditosnerds.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2023/03/Dungeons-Dragons-Honor-Among-Thieves.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>  
+
+      <!-- CARDS -->
+
+        <h2 class="titulos">Recomendaciones: </h2>
+
+      <div class="card mb-3">
+        <a class="link-a" href="https://es.wikipedia.org/wiki/It_(pel%C3%ADcula_de_2017)" target="_blank">
+        <img src="https://lascronicasdeaxa.files.wordpress.com/2019/10/it-2_2019_banner.jpg?w=900" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">It Capitulo 2:</h5>
+          <p class="card-text">It (titulada: Eso (It) en Hispanoamérica) es una película de 2017 producida por New Line Cinema, KatzSmith Productions, Lin Pictures y Vertigo Entertainment, y distribuida por Warner Bros Pictures.8​ Es la segunda adaptación de la novela homónima de Stephen King y está destinada a ser la primera entrega de una duología planificada. La novela fue adaptada previamente en una miniserie de 1990.9​ La película cuenta la historia de siete niños en Derry, Maine, que son aterrorizados por un ser epónimo, sólo para hacer frente a sus propios demonios personales en el proceso.10​11​.</p>
+          <p class="card-text"><small class="text-body-secondary">Duracion 2h 15m</small></p>
+        </div>
+    </a>
+      </div>
+
+      <div class="card mb-3">
+        <a class="link-a" href="https://es.wikipedia.org/wiki/Jurassic_World:_Dominion" target="_blank">
+        <img src="https://www.mubis.es/media/users/3724/298732/nuevo-banner-oficial-de-jurassic-world-dominion-original.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jurassic World: Dominion:</h5>
+          <p class="card-text">Jurassic World: Dominion5​ (titulada: Jurassic World: Dominio en Hispanoamérica) es una película estadounidense de 2022 de ciencia ficción y aventura que se estrenó el 1 de junio de 2022 en México, y el 10 de junio de 2022 en Estados Unidos. Es una secuela de la película Jurassic World: el reino caído.</p>
+          <p class="card-text"><small class="text-body-secondary">Duracion 2h 27m</small></p>
+        </div>
+      </div>
+    </a>
+
+      <div class="card mb-3">
+        <a class="link-a" href="https://es.wikipedia.org/wiki/Avatar:_The_Way_of_Water" target="_blank">
+        <img src="https://cartelescine.files.wordpress.com/2022/05/avatarsentidoaguabanner.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Avatar: El camino del agua: </h5>
+          <p class="card-text">Avatar: The Way of Water (titulada Avatar: El camino del agua en Hispanoamérica y Avatar: El sentido del agua en España) es una película estadounidense perteneciente al género del cine épico, ciencia ficción y animación dirigida, producida y coescrita por James Cameron. Es la primera de las cuatro secuelas planificadas de su película Avatar.</p>
+          <p class="card-text"><small class="text-body-secondary">Duracion 3h 12m</small></p>
+        </div>
+      </div>
+    </a>
+
+    <footer></footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

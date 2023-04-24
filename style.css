@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(33, 97, 97);
+}
+
+.borde-l{
+    border-top: 10px ridge lightseagreen;
+}
+
+.titulos{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+#carouselExampleInterval{
+    margin-bottom: 15px;
+}
+
+.link-a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
